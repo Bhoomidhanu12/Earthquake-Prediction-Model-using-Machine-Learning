@@ -34,8 +34,10 @@ The dataset file (`database.csv`) should be placed inside the `data/` directory.
 ---
 
 ## Installation
-
-1. Clone the repository:
+1. Locally on your computer
+Use Python installed on your PC with an IDE or editor like:
+VS Code
+ Clone the repository:
    ```bash
    git clone https://github.com/your-username/earthquake-prediction-ml.git
    cd earthquake-prediction-ml
@@ -95,6 +97,12 @@ If you face issues with Basemap installation, consider using cartopy as an alter
 Ensure you run the script with the same Python environment where dependencies are installed.
 
 For issues related to TensorFlow/Keras wrappers, verify imports and package versions.
-
-License
+In a Jupyter Notebook
+Jupyter notebooks are ideal because you can run code cells one by one and see outputs (like plots) inline.
+You can install Jupyter by running:
+pip install notebook
+Run notebook with:
+jupyter notebook
+For Working project in **Jupyter Refer The Documentation provided**
+###License
 This project is open-source and available under the MIT License.
